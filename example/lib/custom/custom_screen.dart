@@ -34,7 +34,7 @@ class _CustomScreenState extends State<CustomScreen> {
                     ));
               },
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 _enabled ? "reverse" : "forward",

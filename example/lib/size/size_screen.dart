@@ -33,7 +33,7 @@ class _SizeScreenState extends State<SizeScreen> {
                 ),
               ),
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 _enabled ? "reverse" : "forward",

@@ -41,7 +41,7 @@ class FirstScreenView extends StatelessWidget {
                       left: 20,
                       right: 20,
                       child: TranslationAnimatedWidget(
-                        enabled: viewState.buttonVisible,
+                        enabled: true,
                         curve: Curves.easeIn,
                         duration: Duration(seconds: 1),
                         values: [
@@ -49,7 +49,7 @@ class FirstScreenView extends StatelessWidget {
                           Offset(0, -50),
                           Offset(0, 0),
                         ],
-                        child: RaisedButton(
+                        child: MaterialButton(
                           elevation: 12,
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                           color: Colors.white,
@@ -68,9 +68,9 @@ class FirstScreenView extends StatelessWidget {
             }));
   }
 
-  Widget _buildInputButton({Function onClicked}) {
+  Widget _buildInputButton({required Function onClicked}) {
     return Center(
-      child: RaisedButton(
+      child: MaterialButton(
           onPressed: (){
             onClicked();
           },

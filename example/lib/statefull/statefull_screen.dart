@@ -33,7 +33,7 @@ class _StatefulScreenState extends State<StatefulScreen> {
                 ),
               ),
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 _display ? "hide logo" : "display logo",

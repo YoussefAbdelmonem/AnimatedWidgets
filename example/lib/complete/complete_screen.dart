@@ -37,7 +37,7 @@ class _CompleteScreenState extends State<CompleteScreen> {
                     ),
                   )),
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 _enabled ? "dismiss" : "display",

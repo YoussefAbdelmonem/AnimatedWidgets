@@ -35,7 +35,7 @@ class _ShakeScreenState extends State<ShakeScreen> {
                 ),
               ),
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 _enabled ? "pause" : "start",

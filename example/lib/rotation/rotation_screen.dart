@@ -31,7 +31,7 @@ class _RotationScreenState extends State<RotationScreen> {
                 ),
               ),
             ),
-            RaisedButton(
+            MaterialButton(
               color: Colors.blue,
               child: Text(
                 "rotate",
